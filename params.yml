@@ -1,0 +1,24 @@
+---
+
+
+#  This is onepixel params' file.  The file is in yaml format.  The file
+#  should be auto-documented
+
+
+#  the port where the onepixel web site will run
+port: 6900
+
+# the host name.  0.0.0.0 to share the service with everyone on the network.
+# localhost for running on localhost without the possibility to share the
+# service
+host: 0.0.0.0  #localhost
+
+
+
+# all the params relative to inflixdb
+influxdb:
+    host: ~
+    username: root
+    password: root
+    database: onepixel
+    issecure: yes
